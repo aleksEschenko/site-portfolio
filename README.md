@@ -1,4 +1,4 @@
 # site-portfolio
 
-# на данный момент только десктоп версия
+на данный момент только десктоп версия
 https://alekseschenko.github.io/site-portfolio/
