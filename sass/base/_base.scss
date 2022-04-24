@@ -54,12 +54,15 @@ section {
 
     /* Mobile */
     @media (max-width: 899px) {
-        width: 600px;
+        width: 100%;
+        padding-left: 0;
+	    padding-right: 0;
     }
 
     /* Mobile XS */
     @media (max-width: 599px) {
-        width: 320px;
+        max-width: 598px;
+        min-width: 320px;
     }
 }
 
