@@ -288,6 +288,12 @@ body > * {
   box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.497);
   transition: 0.2s ease-in;
 }
+@media (max-width: 899px) {
+  .nav__item:hover {
+    box-shadow: none;
+    transition: none;
+  }
+}
 
 .item-home {
   background-color: #0d6efd;
@@ -647,8 +653,5 @@ body > * {
   line-height: 1.2;
   text-align: center;
 }
-
-/* Mobile */
-/* Mobile XS */
 
 /*# sourceMappingURL=main.css.map */
