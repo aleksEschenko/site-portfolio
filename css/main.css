@@ -291,7 +291,6 @@ body > * {
 @media (max-width: 899px) {
   .nav__item:hover {
     box-shadow: none;
-    transition: none;
   }
 }
 
