@@ -1,0 +1,35 @@
+.section-desc {
+    background-image: url(../img/bg/blog.png); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    box-shadow: 0px 15px 20px 10px rgba(253, 235, 144, 0.936);
+}
+
+.section-desc__content {
+    margin-top: 90px;
+    margin-bottom: 105px;
+}
+
+.section-desc__title {
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.section-desc__text {
+    font-size: 21px;
+    line-height: 1.2;
+    text-align: center;
+
+    &:not(:last-child){
+        margin-bottom: 45px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 16px;
+    }
+}
