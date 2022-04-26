@@ -4,6 +4,16 @@
 
 .section-portfolio__content {
     margin-top: 90px;
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        margin-top: 50px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        margin-top: 25px;
+    }
 }
 
 .section-portfolio__title {
