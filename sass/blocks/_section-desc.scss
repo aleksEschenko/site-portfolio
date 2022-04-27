@@ -28,6 +28,11 @@
         margin-bottom: 45px;
     }
 
+    /* Mobile */
+    @media (max-width: 899px) {
+        font-size: 18px;
+    }
+
     /* Mobile XS */
     @media (max-width: 599px) {
         font-size: 16px;
