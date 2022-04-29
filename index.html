@@ -22,6 +22,9 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+		
 	</head>
 
 	<body>
@@ -170,8 +173,70 @@
 		<section class="section-portfolio" id="portfolio">
 			<div class="container">
 				<div class="section-portfolio__content">
-					<h2 class="section-portfolio__title">Портфолио</h2>						
+					<h2 class="section-portfolio__title">Мои проекты</h2>	
 				</div>
+
+				<div class="slider-wrapper">
+					<div class="owl-carousel owl-theme" id="photo-carousel">
+						
+						<div class="project">
+							<div class="project__img">
+								<a href="https://alekseschenko.github.io/forest-travel/" target="_blank"><img src="./img/slider/01.jpg" alt="Img"></a>
+							</div>														
+							<div class="project__text">
+								<h3>"Forest Treval"</h3>
+								<p>Многостраничный сайт</p>								
+								<p><span>С применением:</span> HTML , CSS , JavaScript</p>								
+							</div>
+						</div>
+
+						<div class="project">
+							<div class="project__img">
+								<a href="https://alekseschenko.github.io/project-unit/" target="_blank"><img src="./img/slider/02.jpg" alt="Img"></a>
+							</div>														
+							<div class="project__text">
+								<h3>"Юнит"</h3>
+								<p>Лендинг</p>								
+								<p><span>С применением:</span> HTML , CSS , JavaScript</p>								
+							</div>
+						</div>
+
+						<div class="project">
+							<div class="project__img">
+								<a href="https://alekseschenko.github.io/practic-3/" target="_blank"><img src="./img/slider/03.jpg" alt="Img"></a>
+							</div>														
+							<div class="project__text">
+								<h3>"Trevland"</h3>
+								<p>Лендинг</p>								
+								<p><span>С применением:</span> HTML , CSS</p>								
+							</div>
+						</div>
+
+						<div class="project">
+							<div class="project__img">
+								<a href="https://alekseschenko.github.io/practic-2/" target="_blank"><img src="./img/slider/04.jpg" alt="Img"></a>
+							</div>														
+							<div class="project__text">
+								<h3>"Курс Тета Хилинга"</h3>
+								<p>Одностраничный сайт</p>								
+								<p><span>С применением:</span> HTML , CSS ,</p>								
+							</div>
+						</div>
+
+						<div class="project">
+							<div class="project__img">
+								<a href="https://alekseschenko.github.io/practic-1/" target="_blank"><img src="./img/slider/05.jpg" alt="Img"></a>
+							</div>														
+							<div class="project__text">
+								<h3>"Сайт-портфолио"</h3>
+								<p>Одностраничный сайт</p>								
+								<p><span>С применением:</span> HTML , CSS</p>								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
 			</div>
 		</section>
 
@@ -198,6 +263,9 @@
 				</div>
 			</div>			
 		</footer>
+
+		<script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    	<script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
 
 		<script src="./js/main.js"></script>
 
