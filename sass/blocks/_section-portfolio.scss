@@ -3,7 +3,7 @@
 }
 
 .section-portfolio__content {
-    margin-top: 90px;
+    margin-top: 75px;
 
     /* Mobile */
     @media (max-width: 899px) {
@@ -17,9 +17,29 @@
 }
 
 .section-portfolio__title {
-    margin-bottom: 20px;
+    margin-bottom: 65px;
     font-size: 34px;
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
+}
+
+.project {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.project__img {
+    width: 500px;
+    height: 335px;
+    
+    img {
+        height: 100%;
+    }
+}
+
+.project__text {
+    padding-top: 65px;
+    font-style: italic;
 }
