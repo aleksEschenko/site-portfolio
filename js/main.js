@@ -16,3 +16,12 @@ navLinks.forEach(function (item) {
         navMobile.classList.remove('nav-mobile--active'); // убираем активный класс у блока моб навигации
     })
 })
+
+$(document).ready(function() {
+    $("#photo-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        navText: ["&lt;", "&gt;"],
+    });
+});
