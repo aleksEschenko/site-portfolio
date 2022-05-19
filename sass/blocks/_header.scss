@@ -322,11 +322,15 @@
 
 .author-img {
     width: 200px;
-    padding-top: 60px;
-    padding-left: 40px;
+    padding-top: 50px;
+    padding-left: 20px;
     background-image: url(../img/bg/43037.jpg);
     background-repeat: no-repeat;
-    background-size: contain;  
+    background-size: contain;
+    
+    img {
+        width: 125px;
+    }
 }
 
 .data-contact {
